@@ -97,7 +97,7 @@ public class CargaDatos extends javax.swing.JFrame {
         );
 
         jLabel2.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 60)); // NOI18N
-        jLabel2.setText("Ingreso de Clientes");
+        jLabel2.setText("Ingresar Mascotas");
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jLabel11.setText("Nombre:");
