@@ -33,6 +33,7 @@ public class VerDatos extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowOpened(java.awt.event.WindowEvent evt) {
                 formWindowOpened(evt);
@@ -52,6 +53,10 @@ public class VerDatos extends javax.swing.JFrame {
             .addGap(0, 85, Short.MAX_VALUE)
         );
 
+        jPanel2.setBackground(new java.awt.Color(239, 236, 159));
+
+        tablaMascotas.setBackground(new java.awt.Color(107, 4, 4));
+        tablaMascotas.setForeground(new java.awt.Color(255, 255, 255));
         tablaMascotas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {},
@@ -65,6 +70,7 @@ public class VerDatos extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tablaMascotas);
 
+        btnEliminar.setBackground(new java.awt.Color(107, 4, 4));
         btnEliminar.setIcon(new javax.swing.ImageIcon("C:\\Users\\elias\\OneDrive\\Escritorio\\Practicas JAVA\\APP-PELUQUERIA\\img\\icono-eliminar.png")); // NOI18N
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,6 +78,7 @@ public class VerDatos extends javax.swing.JFrame {
             }
         });
 
+        btnEditar.setBackground(new java.awt.Color(107, 4, 4));
         btnEditar.setIcon(new javax.swing.ImageIcon("C:\\Users\\elias\\OneDrive\\Escritorio\\Practicas JAVA\\APP-PELUQUERIA\\img\\icono-editar.png")); // NOI18N
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,6 +89,7 @@ public class VerDatos extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel1.setText("Datos de mascotas:");
 
+        btnAtras.setBackground(new java.awt.Color(107, 4, 4));
         btnAtras.setIcon(new javax.swing.ImageIcon("C:\\Users\\elias\\OneDrive\\Escritorio\\Practicas JAVA\\APP-PELUQUERIA\\img\\Icono-atras.png")); // NOI18N
         btnAtras.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
